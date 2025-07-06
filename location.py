@@ -32,5 +32,5 @@ myMap = folium.Map(location=[lat, lng], zoom_start = 9)
 
 folium.Marker([lat, lng], popup = theLocation).add_to((myMap))
 
-#save Map in html file
+#save Map in html file to view on browswer
 myMap.save("theLocation.html")
