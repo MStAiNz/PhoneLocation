@@ -28,7 +28,7 @@ lng = results[0]['geometry']['lng']
 
 print(lat, lng)
 
-myMap = folium.Map(location=[lat, lng], zoom_start = 9)
+myMap = folium.Map(location=[lat, lng], zoom_start = 12)
 
 folium.Marker([lat, lng], popup = theLocation).add_to((myMap))
 
